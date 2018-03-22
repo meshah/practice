@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd5ae83-7bab-4cb2-86eb-9c06ffa8a047" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/arrays/SearchInsertDeleteSorted.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/arrays/checkPair.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/arrays/MajorityElement.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,18 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="checkPair.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/arrays/checkPair.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,6 +43,7 @@
         <option value="$PROJECT_DIR$/src/arrays/SearchInsertDeleteUnsorted.java" />
         <option value="$PROJECT_DIR$/src/arrays/SearchInsertDeleteSorted.java" />
         <option value="$PROJECT_DIR$/src/arrays/checkPair.java" />
+        <option value="$PROJECT_DIR$/src/arrays/MajorityElement.java" />
       </list>
     </option>
   </component>
@@ -95,6 +84,12 @@
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -121,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.checkPair">
+  <component name="RunManager" selected="Application.MajorityElement">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -129,14 +124,14 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
-    <configuration name="CheckPangram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="stringmanipulation.*" />
+          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="stringmanipulation.CheckPangram" />
+      <option name="MAIN_CLASS_NAME" value="arrays.MajorityElement" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -299,19 +294,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.CheckPangram" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RotateArray" />
-      <item index="2" class="java.lang.String" itemvalue="Application.SearchInsertDeleteUnsorted" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SearchInsertDeleteSorted" />
-      <item index="4" class="java.lang.String" itemvalue="Application.checkPair" />
+      <item index="0" class="java.lang.String" itemvalue="Application.RotateArray" />
+      <item index="1" class="java.lang.String" itemvalue="Application.SearchInsertDeleteUnsorted" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SearchInsertDeleteSorted" />
+      <item index="3" class="java.lang.String" itemvalue="Application.checkPair" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MajorityElement" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.checkPair" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SearchInsertDeleteSorted" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SearchInsertDeleteUnsorted" />
-        <item index="3" class="java.lang.String" itemvalue="Application.RotateArray" />
-        <item index="4" class="java.lang.String" itemvalue="Application.CheckPangram" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MajorityElement" />
+        <item index="1" class="java.lang.String" itemvalue="Application.checkPair" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SearchInsertDeleteSorted" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SearchInsertDeleteUnsorted" />
+        <item index="4" class="java.lang.String" itemvalue="Application.RotateArray" />
       </list>
     </recent_temporary>
   </component>
@@ -346,7 +341,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="972" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -357,7 +351,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -382,7 +376,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="65" />
+      <option name="time" value="88" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -461,9 +455,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/checkPair.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        <state relative-caret-position="255">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/MajorityElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#324#341#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
