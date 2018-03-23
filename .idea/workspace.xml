@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7bd5ae83-7bab-4cb2-86eb-9c06ffa8a047" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/arrays/OddOccuringNumber.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/arrays/MissingNumber.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -45,6 +45,7 @@
         <option value="$PROJECT_DIR$/src/arrays/checkPair.java" />
         <option value="$PROJECT_DIR$/src/arrays/MajorityElement.java" />
         <option value="$PROJECT_DIR$/src/arrays/OddOccuringNumber.java" />
+        <option value="$PROJECT_DIR$/src/arrays/MissingNumber.java" />
       </list>
     </option>
   </component>
@@ -117,7 +118,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.OddOccuringNumber">
+  <component name="RunManager" selected="Application.MissingNumber">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -133,6 +134,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="arrays.MajorityElement" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="practice" />
+      <envs />
+    </configuration>
+    <configuration name="MissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="arrays.MissingNumber" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -171,25 +191,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="arrays.SearchInsertDeleteSorted" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="practice" />
-      <envs />
-    </configuration>
-    <configuration name="SearchInsertDeleteUnsorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="arrays.SearchInsertDeleteUnsorted" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -295,19 +296,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.SearchInsertDeleteUnsorted" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SearchInsertDeleteSorted" />
-      <item index="2" class="java.lang.String" itemvalue="Application.checkPair" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MajorityElement" />
-      <item index="4" class="java.lang.String" itemvalue="Application.OddOccuringNumber" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SearchInsertDeleteSorted" />
+      <item index="1" class="java.lang.String" itemvalue="Application.checkPair" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MajorityElement" />
+      <item index="3" class="java.lang.String" itemvalue="Application.OddOccuringNumber" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MissingNumber" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.OddOccuringNumber" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MajorityElement" />
-        <item index="2" class="java.lang.String" itemvalue="Application.checkPair" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SearchInsertDeleteSorted" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SearchInsertDeleteUnsorted" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MissingNumber" />
+        <item index="1" class="java.lang.String" itemvalue="Application.OddOccuringNumber" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MajorityElement" />
+        <item index="3" class="java.lang.String" itemvalue="Application.checkPair" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SearchInsertDeleteSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -479,6 +480,14 @@
           <folding>
             <element signature="e#0#603#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/arrays/MissingNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
