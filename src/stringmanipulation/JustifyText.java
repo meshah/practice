@@ -3,7 +3,7 @@ import java.util.*;
 public class JustifyText {
     public static void main(String [] args){
         JustifyText jt = new JustifyText();
-        String [] words = {"This", "is", "an", "example", "of", "text", "justification."};
+        String [] words = {"This", "is", "an", "huhuhuhuhu", "haha","example", "of", "text", "justification."};
         jt.fullJustify(words, 16);
     }
     public void fullJustify(String[] words, int maxWidth) {
