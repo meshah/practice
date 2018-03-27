@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bd5ae83-7bab-4cb2-86eb-9c06ffa8a047" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/trees/CountNodes.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/trees/FindIfBST.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7bd5ae83-7bab-4cb2-86eb-9c06ffa8a047" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,8 +40,8 @@
       <file leaf-file-name="FindIfBST.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/trees/FindIfBST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="327">
+              <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -161,30 +157,6 @@
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="stringmanipulation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="trees" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1003,8 +975,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/trees/FindIfBST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="327">
+          <caret line="24" column="27" lean-forward="true" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="27" />
           <folding />
         </state>
       </provider>
