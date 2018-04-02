@@ -5,11 +5,11 @@ public class FindIfBST {
 
     public static void main(String [] args){
         FindIfBST cn = new FindIfBST();
-        cn.root = new Node(4);
-        cn.root.left = new Node(2);
-        cn.root.right = new Node(5);
-        cn.root.left.left = new Node(1);
-        cn.root.left.right = new Node(3);
+        cn.root = new Node(1);
+        cn.root.left = new Node(1);
+        //cn.root.right = new Node(5);
+        //cn.root.left.left = new Node(1);
+        //cn.root.left.right = new Node(3);
         boolean res = cn.checkBST(cn.root);
         if(res)
             System.out.println("The given tree is BST!");
