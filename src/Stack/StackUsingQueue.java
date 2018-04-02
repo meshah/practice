@@ -1,4 +1,4 @@
-package trees;
+package Stack;
 import java.util.*;
 public class StackUsingQueue {
 
