@@ -29,7 +29,7 @@ public class LargeNumberSum {
         char[] c1 = s1.toCharArray();
         char[] c2 = s2.toCharArray();
         for(int i=l-1;i>=0;i--){
-            sum = c1[i]-'0' + (int)c2[i]-'0' + carry;
+            sum = c1[i]-'0' + c2[i]-'0' + carry;
             carry = sum/10;
             sum = sum%10;
             s = sum+s;
